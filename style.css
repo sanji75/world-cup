@@ -5,33 +5,100 @@ body{
   .container{
     background-color: black;
     text-align: initial;
-    border-radius: 10px;
+    border-radius: 30px;
     margin: 50px 50px 60px 60px;
     color: aliceblue;
     display: flex;
-    font-size: 30px;
+    font-size: 35px;
     height: 500px;
-
-
+    align-items: flex-end;
   }
   .header{
     justify-content: left;
     margin-top: 25px;
     margin-left: 50px;
   }
-  .container-top-banner{
-    align-content: flex-end;
-    justify-content: right;
+.top-banner{
+  position: absolute;
+  width: 581px;
+  height: 613px;
+  left: 801px;
+  top: 83px;
+  margin-bottom: 0;
+      
   }
   .button{
-    border-radius: 3px;
-    background-color: red;
-    color: aliceblue;
-    font-size: 15px;
-    height: 20px;
+    color:white;
+    border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 4px;
+  cursor: pointer;
+  background-color: red;
+  border-radius: 5px;
   
   }
   .txt{
-    font-size: small;
+    font-size: medium;
+    color: rgb(240, 247, 244);
+
   }
-  
+ .container-1{
+  position: absolute;
+  width: 312px;
+  height:200px;
+  left: 140px;
+  top: 826px;
+  background: #161616;
+  border-radius: 10px;
+ }
+ .form{
+color: aliceblue;
+
+ }
+ .btn{
+  color:black;
+    border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: grid;
+  font-size: 16px;
+  margin: 16px 8px;
+  cursor: pointer;
+  background-color: rgb(245, 243, 243);
+  border-radius: 5px;
+  align-content: center;
+  padding: 10px;
+ }
+ .btn-1{
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: grid;
+  font-size: 16px;
+  margin: 16px 8px;
+  cursor: pointer;
+  color: aliceblue;
+  border-radius: 5px;
+  align-content: center;
+  padding: 10px;
+  background-color:  red;
+ }
+
+ /*-------blog banner style----*/
+
+.blog-banner img{
+  width: 312px;
+  height: 175px;
+}
+.rank{
+  display:flex;
+  align-items: center;
+}
+
+
